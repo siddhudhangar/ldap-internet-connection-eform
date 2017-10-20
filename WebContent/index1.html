@@ -1,0 +1,41 @@
+<html>
+<style>
+.header{
+background-color:blue;
+border:1px solid yellow;
+height:100px;
+text-align:center;
+}
+h1.h1margin {
+color:white;
+margin:0px ;
+}
+h3.h3margin {
+margin:5px ;color:white;
+}
+
+</style>
+<body>
+
+<div class="header">
+<h1 class="h1margin">Homi Bhabha Center for Science Education</h1>
+<h3 class="h3margin">Online Internet Registration Form</h3>
+</div>
+<form action="Register" method="POST">
+
+Name of Visitor :<input type="text" name="NameOfVisitor"/><br/><br/>
+Visitor's Institution : <input type="text" name="VisitorsInstitution"/><br/><br/>
+Name of HBCSE Host : <input type="text" name="NameOfHbcseHost"/><br/><br/>
+Date of Connection Required : From <input type="text" name="From"/><br/><br/> To <input type="text" name="To"/><br/><br/> 
+MAC/HW Address : 1) Wired / LAN  <input type="text" name="WiredLan"/><br/><br/>
+		2) Wireless / WLAN  <input type="text" name="WirelessWlan"/><br/><br/>
+
+<p>(If you are unable to find the MAC/HW address of your laptop, Please visit to computer lab, </p><br>
+<p>room no. 108-A, in main building with your laptop)</p>
+
+<br/><br/>
+<input type="submit" value="register"/>
+<input type="button" value="login" onclick="window.open('login.html')"/>
+</form>
+</body>
+</html>
